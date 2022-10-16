@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
+body{
+    margin: 0px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 56px 36px 0px ;
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 26px;
+    margin-top: 0px;
+}
+h2{
+    font-size: 12px;
+}
+.text-img{
+    font-size: 12px;
+    line-height: 150%;
+}
+.end{
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.end p,h2{
+    line-height: 130%;
+}
+.end div{
+    margin-right: 33px;    
+}
+.image1{
+    display: flex;
+    justify-content: center;
+}
+.ellips1{
+     margin-top: 162px;
+}
+.camera1{
+    position: absolute;
+}
+.image2,.image3{
+    display: none;
+}
+@media(min-width:830px){
+    main{
+        margin: 56px 72px 0px ;
+    }
+    .text{
+       font-size: 14px;
+       margin-right: 100px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .text-img{
+        display: flex;
+        align-items: center;
+    }
+    .end{
+        font-size: 11px;
+    }
+}
+    @media(min-width:1400px){
+        wrapper{
+            margin: 91px 124px 0px ;
+        }
+        .text{
+            font-size: 24px;
+        }
+        h1{
+            font-size: 55px;
+        }
+        h2{
+            font-size: 25px;
+        }
+        .image3{
+            display:flex;
+        }
+        .end{
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+        }
+        .ellips3{
+           position: absolute;
+           margin-top: 187px;
+           margin-left: 33px;
+        }
+        .rejissor{
+            position: relative;
+        }
+        .image1{
+            display: none;
+        }
+        .image2{
+            display: flex;
+            justify-content: center;
+        }
+        .ellips2{
+             margin-top: 285px;
+        }
+        .camera2{
+            position: absolute;
+        }
+
+    }
